@@ -1,0 +1,52 @@
+body {
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+}
+#navbar-head {
+	background-color: #d33d24;
+	border: 0;
+	border-radius: 0;
+}
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand h1 {
+    color: #fff;
+	font-size: 1.5em;
+	margin-top: 0;
+}
+h1, h4, h3 {
+	font-weight: bold;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list  a {
+	text-align: center;
+    color:  #00ff34;
+}
+#nav-list a span {
+	font-size: 1.5em;
+}
+#nav-list a:hover {
+	background: #ea0067;
+}
+/*****************for small devices**************/
+@media (max-width: 767px){
+.navbar-brand {
+    padding-top: 7px;
+}
+#nav-list a span {
+	margin-right: 15px;
+	font-size: 1.1em;
+}
+#main-content {
+	width: 80%;
+}
+#main-content p {
+	padding: 10px;
+}
+}
